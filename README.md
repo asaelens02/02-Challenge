@@ -1,8 +1,8 @@
-#Goal: Refactor starter code for Horiseon website
+Goal: Refactor starter code for Horiseon website
 
-#Language: HTML and CSS
+Language: HTML and CSS
 
-#Procedure: 
+Procedure: 
 I began by looking at the starter code HTML and the website image. Using a piece of paper, I broke down the structure of the website and identified what divisions in the HTML file could be updated using semantic HTML. I was able to relabel some divisions as header, section, navigation, and article elements. As I was working on this, I also adjusted the spacing between lines and added labels to each section, so they were easy to identify. I also made sure to test the webpage as I changed things and I adjusted small parts of the CSS file as needed to keep the format of the website while I was working. 
 
 Once I was somewhat happy with the new structure using semantic HTML, I moved on to checking links and adding alt and title elements to the images. I discovered the Search Engine Optimization link in the navigation element didn’t work so I was able to add an id and fix it. 
