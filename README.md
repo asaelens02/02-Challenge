@@ -13,5 +13,5 @@ Next, I moved on to the CSS file, I noticed several elements had the same featur
 
 As I worked through this, I made sure to make git commits when I had finished tedious or lengthy changes to either the HTML or CSS files. 
 
-URL: https://asaelens02.github.io/02-Challenge/
+
 
