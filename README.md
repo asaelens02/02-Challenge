@@ -1,46 +1,14 @@
-# 01 HTML, CSS, and Git: Code Refactor
+Goal: Refactor starter code for Horiseon website
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities and/or socio-economic restrictions have access to their website. Accessible websites are better optimized for search engines, and help companies avoid litigation.
+Language: HTML and CSS
 
-For this week's Challenge, your task is to refactor an existing webpage to make it accessible and to improve SEO. It's important to follow the Scout Rule when working with an existing codebase: Always leave the code a little cleaner than you found it. 
+Procedure: 
+I began by looking at the starter code HTML and the website image. Using a piece of paper, I broke down the structure of the website and identified what divisions in the HTML file could be updated using semantic HTML. I was able to relabel some divisions as header, section, navigation, and article elements. As I was working on this, I also adjusted the spacing between lines and added labels to each section, so they were easy to identify. I also made sure to test the webpage as I changed things and I adjusted small parts of the CSS file as needed to keep the format of the website while I was working. 
 
-To impress the imaginary client for this Challenge, you should go the extra mile and improve their codebase for long-term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, such as by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+Once I was somewhat happy with the new structure using semantic HTML, I moved on to checking links and adding alt and title elements to the images. I discovered the Search Engine Optimization link in the navigation element didn’t work so I was able to add an id and fix it. 
 
-Remember when working with a client, it is essential to read the acceptance criteria for guidance and clarity on what the client expects, especially when asked to make a judgment call, such as when an icon needs an accessible alt tag and when it is okay to leave it blank. 
+Next, I moved on to the CSS file, I noticed several elements had the same features in the benefits and products sections of the CSS. To amend this to more concise code I re-classified some elements in the HTML file and was able to achieve the same result on the webpage. I also labeled the sections of the CSS to match the HTML file, so they are easy to identify as well. To complete the document, I reorganized the CSS file so that all the different elements were grouped together under their respective sections; header elements are together, benefits elements are together, etc. 
 
-To successfully complete this week's Challenge, all acceptance criteria must be fully addressed!
+As I worked through this, I made sure to make git commits when I had finished tedious or lengthy changes to either the HTML or CSS files. 
 
-## User Story
-
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our site is optimized for search engines
-```
-
-## Acceptance Criteria
-
-```
-GIVEN a webpage that meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN I find that they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a professional README describing the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+URL: https://asaelens02.github.io/02-Challenge/
